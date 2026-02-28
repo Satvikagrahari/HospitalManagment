@@ -10,4 +10,10 @@
     <ProjectReference Include="..\Hospital.Domain\Hospital.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Data\" />
+    <Folder Include="Logging\" />
+    <Folder Include="Repositories\" />
+  </ItemGroup>
+
 </Project>

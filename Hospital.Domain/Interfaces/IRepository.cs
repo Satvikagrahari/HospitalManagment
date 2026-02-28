@@ -1,0 +1,17 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace Hospital.Domain.Interfaces
+{
+    internal interface IRepository<T> where T : class
+    {
+        void Add(T entity);
+        IEnumerable<T> GetAll();
+        T GetById(int id);
+        void Update(T entity);
+        void Delete(int id);
+
+
+    }
+}
