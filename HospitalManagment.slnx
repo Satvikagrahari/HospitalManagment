@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="Hospital.Application/Hospital.Application.csproj" />
+  <Project Path="Hospital.Console/Hospital.Console.csproj" />
+  <Project Path="Hospital.Domain/Hospital.Domain.csproj" Id="d75bb40d-8496-43e2-8f68-c33cfbfc6731" />
+  <Project Path="Hospital.Infrastructure/Hospital.Infrastructure.csproj" />
+</Solution>
