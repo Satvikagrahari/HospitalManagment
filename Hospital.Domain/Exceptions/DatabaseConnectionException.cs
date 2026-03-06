@@ -4,7 +4,9 @@ using System.Text;
 
 namespace Hospital.Domain.Exceptions
 {
-    internal class DatabaseConnectionException
+    public class DatabaseConnectionException : Exception
     {
+        public DatabaseConnectionException(string message) : base(message) { }
+        
     }
 }

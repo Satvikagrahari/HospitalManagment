@@ -1,6 +1,8 @@
 <Solution>
+  <Project Path="Hospital.API/Hospital.API.csproj" Id="ad11ffea-59ba-4265-87ac-4d31cf7d77b0" />
   <Project Path="Hospital.Application/Hospital.Application.csproj" />
-  <Project Path="Hospital.Console/Hospital.Console.csproj" />
+  <Project Path="Hospital.ConsoleApp/Hospital.ConsoleApp.csproj" Id="7c92239f-d747-457d-bea9-00e30daf03d2" />
   <Project Path="Hospital.Domain/Hospital.Domain.csproj" Id="d75bb40d-8496-43e2-8f68-c33cfbfc6731" />
   <Project Path="Hospital.Infrastructure/Hospital.Infrastructure.csproj" />
+  <Project Path="Hospital.SharedKernal/Hospital.SharedKernal.csproj" Id="af042eef-68d7-493c-a5d0-e47c8f68b59b" />
 </Solution>

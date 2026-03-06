@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Hospital.Domain.Entities
 {
-    internal class Patient
+    public class Patient
     {
         public int PatientId { get; set; }
         public string Name { get; set; }
@@ -12,5 +12,6 @@ namespace Hospital.Domain.Entities
         public string Condition { get; set; }
         public DateTime AppointmentDate { get; set; }
         public int DoctorId { get; set; }
+        public Doctor Doctor { get; set; } // for joins and navigations
     }
 }

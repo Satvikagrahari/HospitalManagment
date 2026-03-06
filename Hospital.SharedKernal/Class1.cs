@@ -1,4 +1,4 @@
-﻿namespace Hospital.Application
+﻿namespace Hospital.SharedKernal
 {
     public class Class1
     {

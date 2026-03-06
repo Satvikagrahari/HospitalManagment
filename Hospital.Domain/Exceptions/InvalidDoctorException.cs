@@ -4,7 +4,8 @@ using System.Text;
 
 namespace Hospital.Domain.Exceptions
 {
-    internal class InvalidDoctorException
+    public class InvalidDoctorException : Exception
     {
+        public InvalidDoctorException(string message) : base(message) { }
     }
 }

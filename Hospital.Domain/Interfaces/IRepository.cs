@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Hospital.Domain.Interfaces
 {
-    internal interface IRepository<T> where T : class
+    public interface IRepository<T> where T : class
     {
         void Add(T entity);
         IEnumerable<T> GetAll();

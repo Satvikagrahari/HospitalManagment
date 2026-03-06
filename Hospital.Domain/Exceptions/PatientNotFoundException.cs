@@ -4,7 +4,8 @@ using System.Text;
 
 namespace Hospital.Domain.Exceptions
 {
-    internal class PatientNotFoundException
+    public class PatientNotFoundException : Exception
     {
+        public PatientNotFoundException(string message) : base(message) { }
     }
 }

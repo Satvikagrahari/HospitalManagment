@@ -4,11 +4,13 @@ using System.Text;
 
 namespace Hospital.Domain.Entities
 {
-    internal class Doctor
+    public class Doctor
     {
         public int DoctorId { get; set; }
         public string Name { get; set; }
         public string Specialization { get; set; }
         public decimal ConsultationFee { get; set; }
+
+        public ICollection<Patient> Patients { get; set; } //navigation join doctor get to know about patients
     }
 }
